@@ -1,0 +1,10 @@
+torch
+transformers
+datasets
+spacy
+scikit-learn
+langchain
+faiss-cpu
+gradio
+pandas
+numpy

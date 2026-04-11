@@ -4,6 +4,8 @@ datasets
 spacy
 scikit-learn
 langchain
+langchain-core
+langchain-text-splitters
 faiss-cpu
 gradio
 pandas

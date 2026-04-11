@@ -74,6 +74,7 @@ def main():
         }
         print("\n=== Error ===")
         print(json.dumps(error_result, ensure_ascii=False, indent=2))
+
         save_result(error_result, args.output)
         print(f"\nError log saved to: {args.output}")
 

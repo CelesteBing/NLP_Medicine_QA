@@ -1,26 +1,32 @@
 from src.retrieval.retrieve import simple_retrieve
 
 
-def run_qa(input_path, question):
+def rag_answer(question: str):
     """
-    Run a simple QA pipeline:
-    1. Retrieve top-k relevant chunks
-    2. Return retrieved evidence
-    3. Use a placeholder answer for now
+    Team-aligned RAG interface:
+    Input: question (str)
+    Output: Tuple[str, str] -> (answer, evidence)
     """
     retrieved_docs = simple_retrieve(question, top_k=3)
 
-    evidence_list = []
-    for doc in retrieved_docs:
-        evidence_list.append({
-            "content": doc.page_content[:500],
-            "metadata": doc.metadata
-        })
+    evidence = "\n\n".join([doc.page_content[:300] for doc in retrieved_docs])
+    answer = "Placeholder answer based on retrieved evidence."
+
+    return answer, evidence
+
+
+def run_qa(input_path, question):
+    """
+    CLI-facing wrapper:
+    Input: input_path, question
+    Output: dict
+    """
+    answer, evidence = rag_answer(question)
 
     return {
         "task": "qa",
         "input_file": input_path,
         "question": question,
-        "answer": "Placeholder answer based on retrieved evidence.",
-        "evidence": evidence_list
+        "answer": answer,
+        "evidence": evidence
     }

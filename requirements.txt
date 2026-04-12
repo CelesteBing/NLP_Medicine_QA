@@ -7,6 +7,7 @@ langchain
 langchain-core
 langchain-text-splitters
 faiss-cpu
-gradio
+gradio>=4.0.0
 pandas
 numpy
+rouge-score

@@ -1,22 +1,36 @@
+import re
 from typing import List, Optional, Tuple
 
 
 def ner_extract(text: str) -> List[Tuple[str, Optional[str]]]:
     """
-    Team-aligned NER interface:
-    Input: raw text
-    Output: List[Tuple[text_segment, label]]
+    Return a list of (text_segment, label) while preserving spaces
+    so Gradio HighlightedText can render correctly.
     """
-    if "aspirin" in text.lower() and "headache" in text.lower():
-        return [
-            ("The patient has ", None),
-            ("headache", "Disease"),
-            (" and takes ", None),
-            ("aspirin", "Drug"),
-            (".", None)
-        ]
+    pieces = re.findall(r"\S+|\s+", text)
 
-    return [(text, None)]
+    results: List[Tuple[str, Optional[str]]] = []
+
+    for piece in pieces:
+        # spaces / tabs / newlines should stay unlabelled
+        if piece.isspace():
+            results.append((piece, None))
+            continue
+
+        token = piece.strip()
+
+        # remove surrounding punctuation for matching only
+        normalized = token.lower().strip(".,!?;:()[]{}\"'")
+
+        if normalized in ["aspirin", "ibuprofen"]:
+            results.append((piece, "Drug"))
+        elif normalized in ["fever", "headache"]:
+            results.append((piece, "Disease"))
+        else:
+            results.append((piece, None))
+
+    return results
+
 
 
 def run_ner(input_path):

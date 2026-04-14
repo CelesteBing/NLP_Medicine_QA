@@ -215,3 +215,5 @@ venv/
 
 data/processed/*.pkl
 output.json
+
+data/raw/mesh/desc2026.xml

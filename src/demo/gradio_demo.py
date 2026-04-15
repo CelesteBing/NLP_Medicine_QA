@@ -1,10 +1,14 @@
 import gradio as gr
-from src.ner.run_ner import ner_extract
+# from src.ner.run_ner import ner_extract
+from src.ner.biobert_infer import biobert_predict
 from src.qa.run_qa import rag_answer
 
 
+# def process_ner(text):
+#     return ner_extract(text)
+
 def process_ner(text):
-    return ner_extract(text)
+    return biobert_predict(text)
 
 
 def process_qa(question):
@@ -30,7 +34,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
             with gr.Column():
                 ner_output = gr.HighlightedText(
                     label="NER Result",
-                    color_map={"Drug": "green", "Disease": "red"}
+                    color_map={"Chemical": "green", "Disease": "red", "Drug": "green"}
                 )
 
         ner_button.click(

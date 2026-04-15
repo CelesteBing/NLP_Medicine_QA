@@ -217,3 +217,8 @@ data/processed/*.pkl
 output.json
 
 data/raw/mesh/desc2026.xml
+
+data/raw/mesh/
+models/biobert/
+*.safetensors
+*.bin

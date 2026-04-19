@@ -1,26 +1,40 @@
-from src.retrieval.retrieve import simple_retrieve
+from src.retrieval.rag_pipeline import (
+    load_chunks,
+    build_faiss_index,
+    answer_question,
+)
+
+
+_chunks = load_chunks()
+_embed_model, _index = build_faiss_index(_chunks)
 
 
 def rag_answer(question: str):
     """
-    Team-aligned RAG interface:
+    Team-aligned RAG interface
     Input: question (str)
     Output: Tuple[str, str] -> (answer, evidence)
     """
-    retrieved_docs = simple_retrieve(question, top_k=3)
+    result = answer_question(
+        question=question,
+        embed_model=_embed_model,
+        index=_index,
+        chunks=_chunks,
+    )
 
-    evidence = "\n\n".join([doc.page_content[:300] for doc in retrieved_docs])
-    answer = "Placeholder answer based on retrieved evidence."
+    answer = result["answer"]
+
+    evidence = "\n\n".join(
+        [
+            f"[Rank {item['rank']}] score={item['score']:.4f}\n{item['page_content'][:400]}"
+            for item in result["retrieved"]
+        ]
+    )
 
     return answer, evidence
 
 
 def run_qa(input_path, question):
-    """
-    CLI-facing wrapper:
-    Input: input_path, question
-    Output: dict
-    """
     answer, evidence = rag_answer(question)
 
     return {
@@ -28,5 +42,5 @@ def run_qa(input_path, question):
         "input_file": input_path,
         "question": question,
         "answer": answer,
-        "evidence": evidence
+        "evidence": evidence,
     }

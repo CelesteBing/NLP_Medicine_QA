@@ -1,0 +1,310 @@
+[
+  {
+    "question": "What is the role of mitochondria in cell death?",
+    "retrieved": [
+      {
+        "rank": 1,
+        "score": 0.6650080680847168,
+        "page_content": "Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.5667334794998169,
+        "page_content": ". PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.5018854141235352,
+        "page_content": ". Mitochondrial dynamics were delineated into four categories (M1-M4) based on characteristics including distribution, motility, and membrane potential (ΔΨm). A TUNEL assay showed fragmented nDNA in a gradient over these mitochondrial stages. Chloroplasts and transvacuolar strands were also examined using live cell imaging",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      }
+    ],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n[Context 1 | score=0.6650]\nQuestion: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles\n\n[Context 2 | score=0.5667]\n. PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis\n\n[Context 3 | score=0.5019]\n. Mitochondrial dynamics were delineated into four categories (M1-M4) based on characteristics including distribution, motility, and membrane potential (ΔΨm). A TUNEL assay showed fragmented nDNA in a gradient over these mitochondrial stages. Chloroplasts and transvacuolar strands were also examined using live cell imaging\n\nQuestion:\nWhat is the role of mitochondria in cell death?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "Direct answer:\nThe role of mitochondria in programmed cell death (PCD) in plants, specifically in A. madagascariensis, has been recognized and studied.\n\nBrief explanation:\nMitochondria play a role in the developmentally regulated PCD in plants, such as the lace plant A. madagascariensis, by undergoing specific dynamics and processes during cell death. These include mitochondrial distribution, motility, membrane potential, and interactions with other cellular components."
+  },
+  {
+    "question": "How does programmed cell death occur in plants?",
+    "retrieved": [
+      {
+        "rank": 1,
+        "score": 0.6743339896202087,
+        "page_content": "Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.41957584023475647,
+        "page_content": ". Context: The hypothesis was tested that pectin content and methylation degree participate in regulation of cell wall mechanical properties and in this way may affect tissue growth and freezing resistance over the course of plant cold acclimation and de-acclimation.\nExperiments were carried on the leaves of two double-haploid lines of winter oil-seed rape (Brassica napus subsp",
+        "metadata": {
+          "id": 265,
+          "question": "Are pectins involved in cold acclimation and de-acclimation of winter oil-seed rape plants?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.4148741066455841,
+        "page_content": ". PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      }
+    ],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n[Context 1 | score=0.6743]\nQuestion: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles\n\n[Context 2 | score=0.4196]\n. Context: The hypothesis was tested that pectin content and methylation degree participate in regulation of cell wall mechanical properties and in this way may affect tissue growth and freezing resistance over the course of plant cold acclimation and de-acclimation.\nExperiments were carried on the leaves of two double-haploid lines of winter oil-seed rape (Brassica napus subsp\n\n[Context 3 | score=0.4149]\n. PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis\n\nQuestion:\nHow does programmed cell death occur in plants?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "Direct answer:\nProgrammed cell death (PCD) in plants occurs in cells within the areoles of lace plant leaves, progressing outwards from the center towards the veins.\n\nBrief explanation:\nIn lace plant leaves, PCD is a regulated process that takes place in the cells within the areoles, progressing outward and stopping around five cells from the vasculature. The role of mitochondria during PCD in plants, specifically in the lace plant (Aponogeton madagascariensis), is less studied compared to animals."
+  },
+  {
+    "question": "What is the function of chloroplasts during PCD?",
+    "retrieved": [
+      {
+        "rank": 1,
+        "score": 0.4868775010108948,
+        "page_content": ". PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.4689405560493469,
+        "page_content": "Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.4648178815841675,
+        "page_content": ". The possible importance of mitochondrial permeability transition pore (PTP) formation during PCD was indirectly examined via in vivo cyclosporine A (CsA) treatment. This treatment resulted in lace plant leaves with a significantly lower number of perforations compared to controls, and that displayed mitochondrial dynamics similar to that of non-PCD cells.",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      }
+    ],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n[Context 1 | score=0.4869]\n. PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis\n\n[Context 2 | score=0.4689]\nQuestion: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles\n\n[Context 3 | score=0.4648]\n. The possible importance of mitochondrial permeability transition pore (PTP) formation during PCD was indirectly examined via in vivo cyclosporine A (CsA) treatment. This treatment resulted in lace plant leaves with a significantly lower number of perforations compared to controls, and that displayed mitochondrial dynamics similar to that of non-PCD cells.\n\nQuestion:\nWhat is the function of chloroplasts during PCD?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "I don't know based on the provided context."
+  },
+  {
+    "question": "What is the role of TUNEL assay?",
+    "retrieved": [],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n\n\nQuestion:\nWhat is the role of TUNEL assay?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "I don't know based on the provided context."
+  },
+  {
+    "question": "What is cyclosporine A used for in this study?",
+    "retrieved": [
+      {
+        "rank": 1,
+        "score": 0.4667055606842041,
+        "page_content": "We investigated the use of cyclosporine and the lysosomotropic amines chloroquine and hydroxychloroquine in combination for additive or synergistic immunosuppression on T-cell responses in vitro to MiHC and MHC in mice.",
+        "metadata": {
+          "id": 82,
+          "question": "Immune suppression by lysosomotropic amines and cyclosporine on T-cell responses to minor and major histocompatibility antigens: does synergy exist?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.4424041509628296,
+        "page_content": "We found that similar concentrations of chloroquine and hydroxychloroquine suppress the T-cell response to MiHC in mice (C57BL/6 anti-BALB.B) and that lysosomotropic amines in combination with cyclosporine result in synergistic suppression of a proliferative response to MiHC",
+        "metadata": {
+          "id": 82,
+          "question": "Immune suppression by lysosomotropic amines and cyclosporine on T-cell responses to minor and major histocompatibility antigens: does synergy exist?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.422267884016037,
+        "page_content": "Question: Proof of concept study: does fenofibrate have a role in sleep apnoea syndrome?. Context: To investigate the effect of fenofibrate on sleep apnoea indices.\nProof-of-concept study comprising a placebo run-in period (1 week, 5 weeks if fibrate washout was required) and a 4-week randomized, double-blind treatment period",
+        "metadata": {
+          "id": 294,
+          "question": "Proof of concept study: does fenofibrate have a role in sleep apnoea syndrome?",
+          "answer": "yes"
+        }
+      }
+    ],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n[Context 1 | score=0.4667]\nWe investigated the use of cyclosporine and the lysosomotropic amines chloroquine and hydroxychloroquine in combination for additive or synergistic immunosuppression on T-cell responses in vitro to MiHC and MHC in mice.\n\n[Context 2 | score=0.4424]\nWe found that similar concentrations of chloroquine and hydroxychloroquine suppress the T-cell response to MiHC in mice (C57BL/6 anti-BALB.B) and that lysosomotropic amines in combination with cyclosporine result in synergistic suppression of a proliferative response to MiHC\n\n[Context 3 | score=0.4223]\nQuestion: Proof of concept study: does fenofibrate have a role in sleep apnoea syndrome?. Context: To investigate the effect of fenofibrate on sleep apnoea indices.\nProof-of-concept study comprising a placebo run-in period (1 week, 5 weeks if fibrate washout was required) and a 4-week randomized, double-blind treatment period\n\nQuestion:\nWhat is cyclosporine A used for in this study?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "Direct answer:\nImmune-suppression on T-cell responses in vitro to MiHC and MHC in mice\n\nBrief explanation:\nCyclosporine A was used in the study to investigate its role in immunosuppression on T-cell responses in vitro to MiHC and MHC in mice, either alone or in combination with lysosomotropic amines chloroquine and hydroxychloroquine."
+  },
+  {
+    "question": "How do mitochondria behave during programmed cell death?",
+    "retrieved": [
+      {
+        "rank": 1,
+        "score": 0.7077103853225708,
+        "page_content": "Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.5237314701080322,
+        "page_content": ". PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.5056601762771606,
+        "page_content": ". Mitochondrial dynamics were delineated into four categories (M1-M4) based on characteristics including distribution, motility, and membrane potential (ΔΨm). A TUNEL assay showed fragmented nDNA in a gradient over these mitochondrial stages. Chloroplasts and transvacuolar strands were also examined using live cell imaging",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      }
+    ],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n[Context 1 | score=0.7077]\nQuestion: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles\n\n[Context 2 | score=0.5237]\n. PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis\n\n[Context 3 | score=0.5057]\n. Mitochondrial dynamics were delineated into four categories (M1-M4) based on characteristics including distribution, motility, and membrane potential (ΔΨm). A TUNEL assay showed fragmented nDNA in a gradient over these mitochondrial stages. Chloroplasts and transvacuolar strands were also examined using live cell imaging\n\nQuestion:\nHow do mitochondria behave during programmed cell death?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "Direct answer:\nMitochondrial dynamics during programmed cell death in the lace plant involve four categories (M1-M4) based on distribution, motility, and membrane potential.\n\nBrief explanation:\nMitochondria in lace plant leaves exhibit different dynamic behaviors during programmed cell death, categorized as M1-M4 based on their distribution, motility, and membrane potential. This suggests that mitochondria play a role in the process of cell death in lace plants, similar to their known involvement in animal systems."
+  },
+  {
+    "question": "What happens to nuclear DNA during mitochondrial stages?",
+    "retrieved": [
+      {
+        "rank": 1,
+        "score": 0.6460432410240173,
+        "page_content": ". Mitochondrial dynamics were delineated into four categories (M1-M4) based on characteristics including distribution, motility, and membrane potential (ΔΨm). A TUNEL assay showed fragmented nDNA in a gradient over these mitochondrial stages. Chloroplasts and transvacuolar strands were also examined using live cell imaging",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.5327482223510742,
+        "page_content": ". PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.45318323373794556,
+        "page_content": "Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      }
+    ],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n[Context 1 | score=0.6460]\n. Mitochondrial dynamics were delineated into four categories (M1-M4) based on characteristics including distribution, motility, and membrane potential (ΔΨm). A TUNEL assay showed fragmented nDNA in a gradient over these mitochondrial stages. Chloroplasts and transvacuolar strands were also examined using live cell imaging\n\n[Context 2 | score=0.5327]\n. PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis\n\n[Context 3 | score=0.4532]\nQuestion: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles\n\nQuestion:\nWhat happens to nuclear DNA during mitochondrial stages?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "Direct answer:\nA TUNEL assay showed fragmented nDNA in a gradient over mitochondrial stages.\n\nBrief explanation:\nFragmented nuclear DNA was observed in a gradient pattern across different mitochondrial stages, as indicated by the results of a TUNEL assay."
+  },
+  {
+    "question": "What are the categories of mitochondrial dynamics?",
+    "retrieved": [
+      {
+        "rank": 1,
+        "score": 0.6179192066192627,
+        "page_content": ". Mitochondrial dynamics were delineated into four categories (M1-M4) based on characteristics including distribution, motility, and membrane potential (ΔΨm). A TUNEL assay showed fragmented nDNA in a gradient over these mitochondrial stages. Chloroplasts and transvacuolar strands were also examined using live cell imaging",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.5179925560951233,
+        "page_content": ". PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.4078914523124695,
+        "page_content": "Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      }
+    ],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n[Context 1 | score=0.6179]\n. Mitochondrial dynamics were delineated into four categories (M1-M4) based on characteristics including distribution, motility, and membrane potential (ΔΨm). A TUNEL assay showed fragmented nDNA in a gradient over these mitochondrial stages. Chloroplasts and transvacuolar strands were also examined using live cell imaging\n\n[Context 2 | score=0.5180]\n. PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis\n\n[Context 3 | score=0.4079]\nQuestion: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles\n\nQuestion:\nWhat are the categories of mitochondrial dynamics?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "Direct answer:\nThe four categories of mitochondrial dynamics are M1-M4.\n\nBrief explanation:\nMitochondrial dynamics are delineated into four categories (M1-M4) based on characteristics such as distribution, motility, and membrane potential. These categories were studied in the context of mitochondrial stages in relation to fragmented nDNA observed in a TUNEL assay, along with the examination of chloroplasts and transvacuolar strands using live cell imaging."
+  },
+  {
+    "question": "What is the role of transvacuolar strands?",
+    "retrieved": [],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n\n\nQuestion:\nWhat is the role of transvacuolar strands?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "I don't know based on the provided context."
+  },
+  {
+    "question": "Does the study suggest mitochondria are important in lace plant programmed cell death?",
+    "retrieved": [
+      {
+        "rank": 1,
+        "score": 0.8159089684486389,
+        "page_content": "Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.5956111550331116,
+        "page_content": ". PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.5581940412521362,
+        "page_content": ". The possible importance of mitochondrial permeability transition pore (PTP) formation during PCD was indirectly examined via in vivo cyclosporine A (CsA) treatment. This treatment resulted in lace plant leaves with a significantly lower number of perforations compared to controls, and that displayed mitochondrial dynamics similar to that of non-PCD cells.",
+        "metadata": {
+          "id": 0,
+          "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+          "answer": "yes"
+        }
+      }
+    ],
+    "prompt": "You are a biomedical question-answering assistant.\n\nYou must answer ONLY based on the retrieved context below.\nDo not use outside knowledge.\nIf the retrieved context is insufficient, respond exactly with:\n\"I don't know based on the provided context.\"\n\nImportant rules:\n- Use the higher-ranked contexts first.\n- Ignore lower-ranked contexts if they are less relevant or inconsistent.\n- Keep the answer concise and evidence-based.\n\nRetrieved Context:\n[Context 1 | score=0.8159]\nQuestion: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?. Context: Programmed cell death (PCD) is the regulated death of cells within an organism. The lace plant (Aponogeton madagascariensis) produces perforations in its leaves through PCD. The leaves of the plant consist of a latticework of longitudinal and transverse veins enclosing areoles\n\n[Context 2 | score=0.5956]\n. PCD occurs in the cells at the center of these areoles and progresses outwards, stopping approximately five cells from the vasculature. The role of mitochondria during PCD has been recognized in animals; however, it has been less studied during PCD in plants.\nThe following paper elucidates the role of mitochondrial dynamics during developmentally regulated PCD in vivo in A. madagascariensis\n\n[Context 3 | score=0.5582]\n. The possible importance of mitochondrial permeability transition pore (PTP) formation during PCD was indirectly examined via in vivo cyclosporine A (CsA) treatment. This treatment resulted in lace plant leaves with a significantly lower number of perforations compared to controls, and that displayed mitochondrial dynamics similar to that of non-PCD cells.\n\nQuestion:\nDoes the study suggest mitochondria are important in lace plant programmed cell death?\n\nOutput format:\nDirect answer:\nBrief explanation:\n",
+    "answer": "Direct answer:\nYes.\n\nBrief explanation:\nThe study suggests that mitochondria play an important role in programmed cell death in lace plants, as indicated by the observed effects of in vivo cyclosporine A treatment on mitochondrial dynamics and the number of perforations in the leaves."
+  }
+]

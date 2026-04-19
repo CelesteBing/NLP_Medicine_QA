@@ -22,13 +22,12 @@ def normalize_context(example):
 
     if isinstance(context, dict):
         parts = []
-        for key in ["contexts", "labels", "meshes"]:
-            if key in context:
-                val = context[key]
-                if isinstance(val, list):
-                    parts.extend([str(v) for v in val])
-                else:
-                    parts.append(str(val))
+        if "contexts" in context:
+            val = context["contexts"]
+            if isinstance(val, list):
+                parts.extend([str(v) for v in val])
+            else:
+                parts.append(str(val))
         return "\n".join(parts)
 
     return str(context)
@@ -51,7 +50,7 @@ def build_documents(max_samples=500):
         question = ex.get("question", "")
         answer = ex.get("final_decision", ex.get("long_answer", ""))
 
-        full_text = f"Question: {question}\n\nContext: {context}"
+        full_text = f"Question: {question}. Context: {context}"
 
         doc = Document(
             page_content=full_text,
@@ -72,8 +71,9 @@ def chunk_documents(docs):
     print("Chunking documents...")
 
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,
-        chunk_overlap=50
+        chunk_size=450,
+        chunk_overlap=80,
+        separators=["\n\n", ". ", "\n", " ", ""]
     )
 
     chunks = splitter.split_documents(docs)
